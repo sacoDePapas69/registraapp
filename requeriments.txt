@@ -1,0 +1,2 @@
+@awesome-cordova-plugins/barcode-scanner/ngx
+@ionic/storage-angular
