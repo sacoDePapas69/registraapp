@@ -1,0 +1,20 @@
+<ion-header>
+    <ion-toolbar >
+      <ion-buttons slot="start">
+        <ion-button (click)="mostrarMenu()">
+          <ion-icon slot="start" name="menu-outline"></ion-icon>
+        </ion-button>
+      </ion-buttons>
+      <ion-title>Scanear</ion-title>
+    </ion-toolbar>
+    
+  </ion-header>
+
+<ion-content style="text-align: center;">
+  <br>
+  <br>
+  <br>
+<ion-button (click)="scan()" color="dark">Escanear codigo</ion-button>
+{{codigo}}
+
+</ion-content>

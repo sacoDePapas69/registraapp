@@ -1,0 +1,28 @@
+.login-header{
+    background: var(--ion-color);
+   }
+   .login-header{
+       position: relative;
+       background: var(--ion-color);
+       border-radius: 0em;
+   }
+   .login-header::after {
+       content: '';
+       position: absolute;
+       bottom: 0;
+       left: 15%;
+       width: 0;
+       height: 0;
+       border: 20px solid transparent;
+       border-top-color: var(--ion-color);
+       border-bottom: 0;
+       margin-left: -15px;
+       margin-bottom: -15px;
+   
+   }
+   .logo-img{
+       display: block;
+       width: 120px;
+       margin: 0 auto;
+       text-align: center;
+   }
